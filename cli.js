@@ -1,5 +1,5 @@
-import md5 as md5;
+import md5 from "md5";
 
-var examcode = 939472837;
+const examcode = 939472837;
 
-md5(examcode) echo console.log();
+console.log(md5(examcode));
